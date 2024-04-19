@@ -1,0 +1,54 @@
+@import url("https://use.typekit.net/qlq7wsa.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Amandine', bold, sans-serif;
+}
+.pr-12{
+    color:#d3e8d6
+}
+.banner-1 {
+  @apply px-5  pt-5 md:pt-10 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: #d3e8d6;
+}
+
+.banner-2 {
+  @apply px-5  pt-5 md:pt-10 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: #d3e8d6;
+}
+.bg-yellowis {
+  background-color: #d3e8d6;
+}
+.hello-button {
+  background-color: #384b47;
+}
+.menu-button {
+  @apply 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl;
+  color: #384b47;
+}
+.heading3 {
+  color: #384b47;
+  @apply md:text-5xl text-xl font-bold tracking-wide;
+}
+
+.project-title {
+  @apply text-3xl md:text-4xl tracking-wide font-bold;
+  color: #d3e8d6;
+}
+
+.card {
+  @apply md:flex place-items-center my-20 shadow-md;
+  background-color: #384b47;
+  padding: 20px;
+}
+.card-image {
+  @apply md:w-1/2 flex;
+}
+
+
+
+  
+  
+  
